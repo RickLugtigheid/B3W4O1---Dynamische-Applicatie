@@ -1,0 +1,51 @@
+body{
+    background-color: pink;
+}
+/* Main page character style */
+#center-div{
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+.char{
+    width: 50%;
+    height: 50%;
+    float:left;
+}
+.charImg {
+    float: left;
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+}
+.name{
+    margin-left: 35%;
+}
+.stats{
+    margin-left: 35%;
+}
+.icon{
+    width: 5%;
+    height: 5%;
+}
+.show{
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+/* Header */
+.header{
+    background-color: white;
+    color: white;
+    padding-top: 300px;
+}
+
+/* Footer */
+
+footer{
+    background-color: white;
+    align-self: center;
+    margin-top: 5%;
+}
