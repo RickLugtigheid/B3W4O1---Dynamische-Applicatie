@@ -14,8 +14,7 @@
     ?>
 </head>
 <body>
-    <span class="header"><h1>Alle <?=$count?> characters uit de database</h1></span>
-    
+    <header><h1>Alle <?=$count?> characters uit de database</h1></header>
     <div id="center-div">
     <?php 
         foreach($rows as $row) {
@@ -26,9 +25,8 @@
             echo "<div class='stats'><img src='assets/images/heartIcon.svg' class='icon'> <b>$row[3]</b><br> <img src='assets/images/attackIcon.svg' class='icon'> <b>$row[6]</b><br> <img src='assets/images/shieldIcon.svg' class='icon'> <b>$row[7]</b></div>";
             echo "<a href='character.php?id=$row[0]' class='show'><img src='assets/images/searchIcon.svg' class='icon right'> bekijk<a/> <br><hr>";
             echo "</div>";
-        }
-        include "assets/includes/footer.inc.php";?>
+        }?>
     </div>
-
+        <?php include "assets/includes/footer.inc.php";?>
 </body>
 </html>

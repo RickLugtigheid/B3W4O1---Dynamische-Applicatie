@@ -1,14 +1,15 @@
 body{
-    background-color: pink;
+    background-color: gray;
 }
 /* Main page character style */
 #center-div{
-    background-color: white;
     width: 80%;
-    height: 100%;
     margin-left: 10%;
+
+    background-color: white;
 }
 .char{
+    background-color: white;
     width: 50%;
     height: 50%;
     float:left;
@@ -36,16 +37,52 @@ body{
 }
 
 /* Header */
-.header{
+header{
     background-color: white;
-    color: white;
-    padding-top: 300px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    text-align: center;
+
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
 }
 
 /* Footer */
 
 footer{
+    text-align: center;   
     background-color: white;
-    align-self: center;
-    margin-top: 5%;
+    
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+    padding: 0.02px 0 0.02px 0;
+}
+
+/* character.php style */
+header a{
+    position: absolute;
+    top: 5%;
+    right: 12.5%;
+    text-decoration: none;
+    color: black;
+}
+
+#charStats{
+    border: black 2px solid;
+    width: 300px;
+}
+.itemTile{
+    font-size: 1.1em;
+}
+#bio{
+    display: inline-block;
+    width: 60%;
+    margin: 1% 1% 1% 1%;
+}
+/* Character creator style */
+.iconSmall{
+    width: 2%;
+    height: 2%;
 }
